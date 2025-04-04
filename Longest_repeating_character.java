@@ -24,3 +24,8 @@ public class Longest_repeating_character {
 
     }
 }
+// Methods :
+// 1. toCharArray() -- it will return the character array of a string element.
+// 2. containsKey(character) -- it will identify the character is present the Hash Map.
+// 3. KeySet() -- it will return the keys in the hashmap and above the problem the charcter are the keys and it will the characters.
+// 4. get() -- By using this, we can get the frrequency of the character.
