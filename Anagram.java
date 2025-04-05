@@ -1,3 +1,13 @@
+// Leetcode - 242
+// Question:- Valid Anagram
+// Anagram - Rearrange the letter of the word to get another word 
+// ex: s = "cat" and t = "tac"
+
+// Methods
+// String.toCharArray() -- it will store the character array of the String.
+// getOrDefault(Character,value) -- it will store the character and default value of the character.
+// values() -- it will return the value of the hash map.
+
 import java.util.HashMap;
 
 class Anagram {
@@ -24,10 +34,3 @@ class Anagram {
         System.out.println("true");
     }
 }
-
-// If the two strings are having same length and having the characters are same then it is called the Anagram.  
-// ex: s = "cat" and t = "tac"
-// Methods
-// String.toCharArray() -- it will store the character array of the String.
-// getOrDefault(Character,value) -- it will store the character and default value of the character.
-// values() -- it will return the value of the hash map.
