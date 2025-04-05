@@ -21,9 +21,9 @@ class Anagram {
     }
 }
 
-
+// If the two strings are having same length and having the characters are same then it is called the Anagram.  
+// ex: s = "cat" and t = "tac"
 // Methods
 // String.toCharArray() -- it will store the character array of the String
 // getOrDefault(Character,value) -- it will store the character and default value of the character.
-// 
-// 
+
