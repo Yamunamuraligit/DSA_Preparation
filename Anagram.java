@@ -5,6 +5,10 @@ class Anagram {
         String s = "anagram";
         String t = "nagaram";
         HashMap<Character, Integer> hash = new HashMap<>();
+        if (s.length() != t.length()) {
+            System.out.println(false);
+            return;
+        }
         for (char ch : s.toCharArray()) {
             hash.put(ch, hash.getOrDefault(ch, 0) + 1);
         }
