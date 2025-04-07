@@ -6,6 +6,8 @@
 // String.length() -- it is a methos of string to identify the length of the string.
 // String.charAt(index) -- it will return the character present in the index of the string.
 
+// Time complexity - O(n^2)
+
 // code
 class Solution {
     public int countSubstrings(String s) {
