@@ -9,6 +9,7 @@
 // stack.pop() -- it will pop the element in the stack
 // stack.empty() -- ientify the stack is empty or not.
 
+// Time complexity - O(n^2)
 
 // Code
 import java.util.Stack;
