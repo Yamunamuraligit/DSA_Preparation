@@ -13,6 +13,9 @@
 // 5	0101	res[2] + 1 = 1 + 1 = 2
 // 10	1010	res[5] + 0 = 2 + 0 = 2
 
+// Time comlexity : O(n)
+
+
 // Code
 class Solution {
     public int[] countBits(int n) {
