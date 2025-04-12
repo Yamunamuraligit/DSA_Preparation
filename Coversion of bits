@@ -2,3 +2,16 @@
 //Question :-
 //Conversion of bits i.e. when giving any number the number is converted into binary number. It will the bits. 
 
+//Code
+class Demo{
+  public static void main(String args[]) {
+   int number = 6;
+   int rem =0;
+   int bits = 0;
+   while(number > 0) {
+   rem = number%2;
+   bits = bits + rem;
+   number = number /2;
+}
+}
+}
