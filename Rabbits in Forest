@@ -3,5 +3,6 @@
 and collected the answers in an integer array answers where answers[i] is the answer of the ith rabbit.
 Given the array answers, return the minimum number of rabbits that could be in the forest.
 
-
-//Code
+// Normal Explaination :
+Here we are going to a forest and asking the rabbit that "Like you How many rabbits are their?"
+I asked three rabbits they give the answers as [1,1,2]
