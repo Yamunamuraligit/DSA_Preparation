@@ -6,3 +6,11 @@ Given the array answers, return the minimum number of rabbits that could be in t
 // Normal Explaination :
 Here we are going to a forest and asking the rabbit that "Like you How many rabbits are their?"
 I asked three rabbits they give the answers as [1,1,2]
+the logic is, if the rabbits are give the same number then we are adding the number + themsevles
+-- 1 + 1
+-- 2 + 1
+then total number of rabbits are 5.
+Like as [10,10,10]
+if the rabbits are same then number of rabbits + themselves then 
+-- 10 + 1
+then total number of rabbits are 11.
